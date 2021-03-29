@@ -1,0 +1,57 @@
+body{
+	background: url("../ressources/texture.png") fixed repeat;
+	/*background-attachment: fixed; /* Le fond restera fixe */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	color : white;
+	font: italic small-caps bold 16px/2 cursive;
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+h1{
+	color: white;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	color = white;
+	/*flex-direction: line;*/
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	/*flex-direction: line;*/
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	top : 0px;
+	/*background-color: blue;*/
+	border-style: solid;
+	width: 100%;
+	/*height: 10%;*/
+	padding-bottom: 2%; 
+	align-items: center;
+	position: fixed;
+	background: url("../ressources/texture.png") fixed repeat;
+}
+
+section{
+	margin-top: 15%;
+}
