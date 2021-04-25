@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/formStyle.css">
+
+	<title>Give us all</title>
+</head>
+<body>
+
+	<form >
+
+		<div class = "visible" id="fname">
+        	<label for="fname">First Name :</label>
+        	<input type="text" name="first_name" id = "fnameIn">
+        	<button type="button" onclick="fnameChecker(true)">OK</button>
+    	</div>
+
+    	<div class = "invisible", id="lname">
+        	<label for="lname">Last Name :</label>
+        	<input type="text" name="last_lname" id = "lnameIn" >
+        	<button type="button" onclick="lnameChecker(true)">OK</button>
+    	</div>
+
+    	<div class = "invisible" id="bdate">
+        	<label for="bdate">Birthday :</label>
+        	<input type="text" name="user_birthday" id = "bdateIn">
+        	<button type="button" onclick="dateChecker(true)">OK</button>
+    	</div>
+
+    <div class = "invisible" id="mail">
+        <label for="mail">e-mail :</label>
+        <input type="text"  name="user_mail" id = "mailIn">
+        <button type="button" onclick="mailChecker(true)">OK</button>
+    </div>
+
+    <div class = "invisible" id = "uname">
+        <label for="fname">User Name :</label>
+        <input type="text" name="user_name" id = "unameIn">
+        <button type="button" onclick="unameChecker(true)">OK</button>
+    </div>
+
+    <div class = "invisible" id="password">
+        <label for="password">Password :</label>
+        <input type = "password" name="user_password" id = "passwordIn">
+        <button type="button" onclick="passwordChecker(true)">OK</button>
+    </div>
+
+    <div id = "button", class="invisible">
+        <button type="button" onclick = "sendData()">Get access</button>
+    </div>
+
+</form>
+</body>

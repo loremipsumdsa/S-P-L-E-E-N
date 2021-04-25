@@ -1,6 +1,6 @@
 body{
 	background: url("../ressources/texture.png") fixed repeat;
-	/*background-attachment: fixed; /* Le fond restera fixe */
+	background-attachment: fixed; /* Le fond restera fixe */
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;

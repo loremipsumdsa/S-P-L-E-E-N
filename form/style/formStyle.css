@@ -1,0 +1,74 @@
+body{
+	background: url("../ressources/texture.png") fixed repeat;
+	font: italic small-caps bold 30px/2 cursive;
+	color : white;
+}
+
+
+button{
+	height: 100%;
+	width: 30%;
+	/*display:inline-block;*/
+	border:0.16em solid #FFFFFF;
+	box-sizing: border-box;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Roboto',sans-serif;
+	font-weight:400;
+	color:black;
+	text-align:center;
+	transition: all 1.15s;
+}
+
+button:hover{
+	
+	color:#FFFFFF;
+	border-color:#DDDDDD;
+}
+button:active{
+	color:#BBBBBB;
+	border-color:#BBBBBB;
+}
+
+form{
+	margin-left: 40%;
+  	margin-right: 40%;
+}
+
+input[type = text],input[type = password]{
+	width: 100%;
+	margin-bottom: 1%;
+	box-sizing: border-box;
+	font : italic small-caps bold 20px/2 cursive;
+}
+
+.valid{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.invalid{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color : red;
+}
+
+.unknown{
+
+	background-color: white;
+	color : black; 
+}
+
+.invisible{
+	display: none;
+
+  	
+}
+
+.visible{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

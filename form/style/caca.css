@@ -1,0 +1,125 @@
+*
+{
+	margin-bottom: 0.5%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-top: 0.5%;
+	padding: 1% 1% 1% 1%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body
+{
+	margin : 0;
+}
+
+p
+{
+	text-align: justify;
+}
+
+a
+{
+	color: inherit;
+}
+.entete
+{
+	margin-top: 0.0%;
+	padding-top: 0;
+	display: flex;
+	justify-content: normal;
+	background-color:  #2e484e   ;
+	align-items: center;
+	background-color: #2a4b52 ;
+	color : white;
+
+}
+
+.statut
+{
+	font-style: italic;
+	font-size: 20px;
+	text-align: left;
+}
+
+.qualite
+{
+	font-style: italic;
+	font-size: 20px;
+	text-align: left;
+}
+.photoDescription
+{
+	-webkit-border-radius: 10%;
+	max-height : auto;
+	max-width : auto;
+	min-height : auto;
+	max-width : auto;
+}
+
+section
+{
+	display: flex;
+	justify-content: space-around; 
+}
+
+article
+{ 
+	border-top: solid #1A3F47;
+}
+
+.pied
+{
+	display: flex;
+	justify-content: space-around;
+	/*background-color:  #96a8b0;*/
+	 background-color: #1d4851;
+	 color : white;
+
+
+}
+
+.lienPdf
+{
+	display : none;
+}
+
+.diplome{
+	color: black;
+}
+
+@media screen and (max-width: 1024px)
+{
+	
+	section
+	{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around; 
+	}
+
+	.entete
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around; 
+	}
+} 
+
+@media print
+{
+	.lienWeb{
+		display: none;
+	}
+	.lienPdf{
+		display: flex;
+		flex-direction: line;
+		justify-content: space-around; 
+	}
+	.qr{
+		display: flex;
+		width: 105px;
+		height: 105px;
+		padding-right: 10px; 
+	}
+}
